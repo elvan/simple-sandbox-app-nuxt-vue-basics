@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <section class="container">
     <input type="text" v-model="userId" />
     <button @click="onLoadUser">Load User</button>
     <nuxt-child />
-  </div>
+  </section>
 </template>
 
 <script>
@@ -21,3 +21,5 @@ export default {
   layout: "users",
 };
 </script>
+
+<style scoped></style>
