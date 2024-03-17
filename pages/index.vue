@@ -4,9 +4,6 @@
       <logo />
       <h1 class="title">simple-sandbox</h1>
       <h2 class="subtitle">Nuxt.js Sandbox Application</h2>
-      <div class="links">
-        <nuxt-link to="/users">Users</nuxt-link>
-      </div>
     </div>
   </section>
 </template>
